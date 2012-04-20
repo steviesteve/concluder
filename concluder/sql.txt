@@ -1,0 +1,7 @@
+CREATE TABLE location
+(
+id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(128),
+description TEXT,
+location_data TEXT
+);

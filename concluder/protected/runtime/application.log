@@ -1,0 +1,16 @@
+2012/04/18 22:54:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/yii/concluder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/concluder/index.php?r=gii
+---
+2012/04/18 22:55:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/yii/concluder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/concluder/index.php?r=gii
+---
